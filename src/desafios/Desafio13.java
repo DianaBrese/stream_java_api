@@ -15,6 +15,7 @@ public class Desafio13 {
 
 		if (numeros.isEmpty()) {
 			throw new Exception("Lista vazia!");
+
 		} else {
 			System.out.println("Digite um intervalo de início");
 			int intervaloInicio = sc.nextInt();
@@ -29,6 +30,7 @@ public class Desafio13 {
 		}
 
 		sc.close();
+
 	}
 
 }
